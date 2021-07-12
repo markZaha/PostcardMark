@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    min-width: 320px;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #0000;
+    color:black;
+
+}
+
+/*font-family: 'Indie Flower', cursive;*/
+/*font-family: 'Roboto', sans-serif;*/
+#FullSize{
+    width: 100%;
+    height: 100vh;
+    padding:30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+#mainContainer{
+    width: 800px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 33px 5px rgb(0 0 0 / 50%);
+    border: #d23222 solid 1px;
+    background: repeating-linear-gradient( 
+    45deg, #534f81, #534f81 20px, white 20px, white 40px, #d23222 40px, #d23222 60px, white 60px, white 80px );
+}
+#insert{
+    width: 95%;
+    height: 95%;
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+#topPart, #botomPart {
+    width: 100%;
+    height: 120px;
+    box-sizing: border-box;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#leftPart, #rightPart {
+width: 50%;
+height: 282.5px;
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+font-family: 'Indie Flower' ,cursive;
+font-size: 20px;
+flex-direction: column;
+}
+#leftPart p, #rightPart p{
+    color: #4660a2;
+    font-size: 22px;
+}
+#leftPart{
+    border-right: solid 3px;
+   
+}
+.lines {
+    width: 340px;
+    height: 50px;
+    border-bottom: solid 3px;
+    box-sizing: border-box;
+    line-height: 20px;
+    margin-bottom: 0;
+    display: flex;
+   align-items:flex-end;
+    
+}
+.lines p {
+    margin-bottom: 0;
+}
+.lines2 {
+    width: 200px;
+    
+    border-bottom: solid 3px;
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-direction: column;
+   
+}
+.lines2 p {
+    margin-bottom: 0;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    text-align: left;
+    color: #4660a2;
+}
+.lines2 h3 {
+    line-height: 0px;
+    padding: 0;
+}
+
